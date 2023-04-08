@@ -9,11 +9,14 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask stopMovement;
     public LayerMask movableEntity;
 
+    EnemyPushed enemyScript;
+
     public int movementsLeft;  //Los movimientos restantes son publicos para que las trampas lo reduzcan 1 más
 
     void Start()
     {
         movePoint.parent = null;
+        enemyScript = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPushed>();
     }
 
     /*
@@ -35,8 +38,8 @@ public class PlayerMovement : MonoBehaviour
                 {
                     if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), 0.2f, movableEntity))
                     {
-                        Debug.Log("Aqui se mueve el enemigo xD");
-                        //Mover Enemigo
+                        //enemyScript.BePushed();
+                        movementsLeft--;
                     }
                     else if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), 0.2f, stopMovement))
                     {
