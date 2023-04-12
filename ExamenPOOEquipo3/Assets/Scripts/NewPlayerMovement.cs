@@ -6,15 +6,18 @@ using UnityEngine;
 public class NewPlayerMovement : MonoBehaviour
 {
     private bool isMoving;
-    public bool collide;
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.3f;
 
+    [Header("Movement Constrains")]
     public LayerMask movableEntity;
     public bool enemyUp, enemyDown, enemyLeft, enemyRight;
     public LayerMask terrain;
     public bool terrainUp, terrainDown, terrainLeft, terrainRight;
+    public LayerMask trap;
+    public bool trapUp, trapDown, trapLeft, trapRight;
 
+    [Header("Moving Conditions")]
     public float cooldownBetweenMovements = 0.5f;
     private float cdMove;
     public int movementsLeft;
@@ -33,54 +36,19 @@ public class NewPlayerMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W) && cdMove <= 0) 
             { 
-                if (!isMoving && !enemyUp && !terrainUp)
-                {
-                    StartCoroutine(MovePlayer(Vector3.up));
-                    cdMove = cooldownBetweenMovements;
-                } else if (!isMoving && enemyUp && !terrainUp)
-                {
-                    push.BePushedUp();
-                    cdMove = cooldownBetweenMovements;
-                }
+                MoveUp();
             }
             if (Input.GetKey(KeyCode.A) && cdMove <= 0)
             {
-                if (!isMoving && !enemyLeft && !terrainLeft)
-                {
-                    StartCoroutine(MovePlayer(Vector3.left));
-                    cdMove = cooldownBetweenMovements;
-                }
-                else if (!isMoving && enemyLeft && !terrainLeft)
-                {
-                    push.BePushedLeft();
-                    cdMove = cooldownBetweenMovements;
-                }
+                MoveLeft();
             }
             if (Input.GetKey(KeyCode.S) && cdMove <= 0)
             {
-                if (!isMoving && !enemyDown && !terrainDown)
-                {
-                    StartCoroutine(MovePlayer(Vector3.down));
-                    cdMove = cooldownBetweenMovements;
-                }
-                else if (!isMoving && enemyDown && !terrainDown)
-                {
-                    push.BePushedDown();
-                    cdMove = cooldownBetweenMovements;
-                }
+                MoveDown();
             }
             if (Input.GetKey(KeyCode.D) && cdMove <= 0)
             {
-                if (!isMoving && !enemyRight && !terrainRight)
-                {
-                    StartCoroutine(MovePlayer(Vector3.right));
-                    cdMove = cooldownBetweenMovements;
-                }
-                else if (!isMoving && enemyRight && !terrainRight)
-                {
-                    push.BePushedRight();
-                    cdMove = cooldownBetweenMovements;
-                }
+                MoveRight();
             }
         }
         else
@@ -93,6 +61,7 @@ public class NewPlayerMovement : MonoBehaviour
     {
         CheckForEnemy();
         CheckForTerrain();
+        CheckForTrap();
     }
 
     private IEnumerator MovePlayer(Vector3 direction)
@@ -183,6 +152,122 @@ public class NewPlayerMovement : MonoBehaviour
         else
         {
             terrainRight = false;
+        }
+    }
+
+    private void CheckForTrap()
+    {
+        if (Physics2D.OverlapCircle(transform.position + new Vector3(0f, 1f), 0.2f, trap))
+        {
+            trapUp = true;
+        }
+        else
+        {
+            trapUp = false;
+        }
+        if (Physics2D.OverlapCircle(transform.position + new Vector3(0f, -1f), 0.2f, trap))
+        {
+            trapDown = true;
+        }
+        else
+        {
+            trapDown = false;
+        }
+        if (Physics2D.OverlapCircle(transform.position + new Vector3(-1f, 0f), 0.2f, trap))
+        {
+            trapLeft = true;
+        }
+        else
+        {
+            trapLeft = false;
+        }
+        if (Physics2D.OverlapCircle(transform.position + new Vector3(1f, 0f), 0.2f, trap))
+        {
+            trapRight = true;
+        }
+        else
+        {
+            trapRight = false;
+        }
+    }
+
+    private void MoveUp()
+    {
+        if (!isMoving && !enemyUp && !terrainUp && !trapUp)
+        {
+            StartCoroutine(MovePlayer(Vector3.up));
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && !enemyUp && !terrainUp && trapUp)
+        {
+            StartCoroutine(MovePlayer(Vector3.up));
+            movementsLeft--;
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && enemyUp && !terrainUp)
+        {
+            push.BePushedUp();
+            cdMove = cooldownBetweenMovements;
+        }
+    }
+
+    private void MoveDown()
+    {
+        if (!isMoving && !enemyDown && !terrainDown && !trapDown)
+        {
+            StartCoroutine(MovePlayer(Vector3.down));
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && !enemyDown && !terrainDown && trapDown)
+        {
+            StartCoroutine(MovePlayer(Vector3.down));
+            movementsLeft--;
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && enemyDown && !terrainDown)
+        {
+            push.BePushedDown();
+            cdMove = cooldownBetweenMovements;
+        }
+    }
+
+    private void MoveLeft()
+    {
+        if (!isMoving && !enemyLeft && !terrainLeft && !trapLeft)
+        {
+            StartCoroutine(MovePlayer(Vector3.left));
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && !enemyLeft && !terrainLeft && trapLeft)
+        {
+            StartCoroutine(MovePlayer(Vector3.left));
+            movementsLeft--;
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && enemyLeft && !terrainLeft)
+        {
+            push.BePushedLeft();
+            cdMove = cooldownBetweenMovements;
+        }
+    }
+
+    private void MoveRight()
+    {
+        if (!isMoving && !enemyRight && !terrainRight && !trapRight)
+        {
+            StartCoroutine(MovePlayer(Vector3.right));
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && !enemyRight && !terrainRight && trapRight)
+        {
+            StartCoroutine(MovePlayer(Vector3.right));
+            movementsLeft--;
+            cdMove = cooldownBetweenMovements;
+        }
+        else if (!isMoving && enemyRight && !terrainRight)
+        {
+            push.BePushedRight();
+            cdMove = cooldownBetweenMovements;
         }
     }
 }

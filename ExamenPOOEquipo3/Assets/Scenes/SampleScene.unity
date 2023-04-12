@@ -1786,6 +1786,13 @@ MonoBehaviour:
   terrainDown: 0
   terrainLeft: 0
   terrainRight: 0
+  trap:
+    serializedVersion: 2
+    m_Bits: 256
+  trapUp: 0
+  trapDown: 0
+  trapLeft: 0
+  trapRight: 0
   cooldownBetweenMovements: 0.2
   movementsLeft: 40
 --- !u!212 &783720246
@@ -1965,7 +1972,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587011538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2017,11 +2024,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1781830059}
-  - component: {fileID: 1781830061}
   - component: {fileID: 1781830058}
   - component: {fileID: 1781830060}
-  m_Layer: 0
-  m_Name: spike
+  m_Layer: 8
+  m_Name: Spike
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2110,15 +2116,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1781830061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781830057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13792a7c1720e3f43a9957d6fe194c51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
