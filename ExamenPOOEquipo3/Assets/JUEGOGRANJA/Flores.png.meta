@@ -1,0 +1,2347 @@
+fileFormatVersion: 2
+guid: f18f0fae61da6264d94da20f7cd29133
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flores_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5a3a8bf0129e1478154d46b1bbdf69
+      internalID: 688736188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6141aff38f32e843a226e85398da2ea
+      internalID: -1314852763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d7d00cc2cf4804291ec52239481a81
+      internalID: -764250809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f803328300e31bb40bc517a9572fa029
+      internalID: -1276501986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c30a8dfc98087b478c0ed180af0e4cc
+      internalID: -578008305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01180f1d1d8c864dbb067ffbb307c66
+      internalID: -404958204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07afce739d2a2854491cfd27230a3d77
+      internalID: -186583297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae5994d5310b9f4789b126f24543c81
+      internalID: 1896825180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e3d8ac938ae949bb0f77cd1be7da0
+      internalID: 50715978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde141269222ee84e86eef213ab4fff2
+      internalID: 1111881504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff6cb6d2c21e694a9359a837a7883de
+      internalID: 1303345190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18d6afe498c6674589853e97bc93d1d
+      internalID: -2126041871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca0d9e709a2dad4b92a353d35536b69
+      internalID: 407642154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd619bcf9856e547be816a946cfab3a
+      internalID: -604176430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171c069f31cb5724e9867f9595c1fe3a
+      internalID: 2104935793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b31d9995955db48b78351534c92273
+      internalID: -2052392637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc059f208d4b345bc7a1e8b385b002
+      internalID: -1756068592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3ef0cce9554d24dbf6aa1a075816ae
+      internalID: 986127256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2fa92ed91b9884c98543a12a5e3aa1
+      internalID: -1325763823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784b3e7bab058f548bdba97f8512eca7
+      internalID: 1094066825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100226c6ff41a24391a5c56c66b0447
+      internalID: -2052408360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e9a4747ba7c384095110680d0eb3be
+      internalID: -422886416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f9f32076a16974c9ac66de0b787333
+      internalID: -953777724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232bb318f0544941a204d5d9a5cd454
+      internalID: 946870904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643c7d96c7337b7479cb2a6c8f2ecf10
+      internalID: -359946431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950e8e27e6a48046a80def3f09fe1a4
+      internalID: -1502726921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e8542be2e7b04fa072f3b736938e1
+      internalID: -467902161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984c44f33c66415418faa9ed72a12a57
+      internalID: -217423596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404cb5cf71ae5954695946f6d6c56cb3
+      internalID: 1893164912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0fea94db25ad044bf9c0811076c037
+      internalID: 1732298984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfaa19a1b2a26744a5f717ce6075bf9
+      internalID: -997378345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f739df898aa8845aa1334a9c240d69
+      internalID: 1367782641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f508e13578b62b84f84371d773d7be2c
+      internalID: -1458780808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5220f44be517b40bb33fe09790ba45
+      internalID: -1138217291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280059fc940bfc9438bc160b1e0ff343
+      internalID: -570727739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4d8fde6a6b43d4890d1ee311d28a49
+      internalID: 1327129825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dfd6f1432e51c44b93bf1e8067cf49
+      internalID: -952109861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_37
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ced92d9eab0e646b7d0286ddf216bd
+      internalID: 292633208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_38
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143d7cf9aa0b4384990c386d6903701c
+      internalID: -1894688212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a83135651d864d8dc2a8ae0bb2f18
+      internalID: 230175506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c51abee623e16418db3feef00accc7
+      internalID: 1981631095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad067a8fd1bc30d429e1f965d9d37403
+      internalID: -305413248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f3b6915f72b474aa9fcbb68ecada52
+      internalID: 122121217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75515b0ae00505f4dad1e71d4f747ef0
+      internalID: 1656891368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_44
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad95ba4a36eb304782000906021a595
+      internalID: -454118076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_45
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3d3ddec7346f4289fc9df308ad418
+      internalID: -1023836108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_46
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4fe774b55ddeb4cb6e1364b6530b98
+      internalID: -311780259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_47
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca25fa7498e2d442a7a91a9fbd33be0
+      internalID: 833584806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_48
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd9b314a0398047a5628a04011fed1
+      internalID: 1938795198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_49
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1069
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e145a4af1c4daa4cb85b1650efe6e48
+      internalID: 1338706315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250f6673f5913e443ae3b23c251b9569
+      internalID: 1136828408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780a65075e1075498e1a0d5e9b883a9
+      internalID: -813488518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac30d0e846968945bdc9589c4181388
+      internalID: -1423604289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a144db143ea8cb46a8c01f68a3db2b1
+      internalID: 1685132838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_54
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c409db35661964db73349fbad04297
+      internalID: 607541925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_55
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e038785da4328040a09ab8fcaeab8fd
+      internalID: 351794019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a00f275236e5f4285eef01cd0a1ca6
+      internalID: -1503434867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_57
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ea26a6c13d8414e9c31af931418529
+      internalID: -220026595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da5d0bcf8b44fa4d84191c987b59e57
+      internalID: -2003127741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 869
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078d849c7512c4d499f15bc4ec393767
+      internalID: -564973580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ec329512932324aa19fc454a794856
+      internalID: -2116076227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2de161db0047bb4698c8ae51e0e1c6c
+      internalID: 35428678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b0245325bbee143b62ab5a791a1a8c
+      internalID: -2082603490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_63
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7aaaddd363faa45913882838bfc772
+      internalID: 1894341430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed211eb57f29e40909879551dcd528
+      internalID: 1497682065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_65
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b48321ad95c8c4fac97e4c8e8c5594
+      internalID: -2126425924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_66
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15cadd6d1dd1694d83e57b695462e3b
+      internalID: -949602391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_67
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eade1413622b07844b4ab727fedaf11c
+      internalID: 1424778587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_68
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40701e8d55a41b048b08c96fc63879df
+      internalID: -1846753219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_69
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 669
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a28435f11aa042beed97e583cedf2
+      internalID: -136392943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9e5a834f0a0124081e825a3a50e7e6
+      internalID: -714621186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_71
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ba3b659305ddc4d9ab7bfcf55f44d3
+      internalID: 30451985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_72
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2447477d53819f24ab634b4361ab4649
+      internalID: 1555101523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1561a5434d47acd43afc90c8aafbf695
+      internalID: -1802815436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_74
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45490311b7d37dc48971d5ec2cb3da66
+      internalID: -618826131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_75
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256a1a46993bdb840a74ae5503cbf24d
+      internalID: 1373044091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_76
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f978087a6e81aa147887fa499dd1941a
+      internalID: -1357317465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_77
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277f801b472c1ed478a95dd0d4b3b5e2
+      internalID: -871634080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_78
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c057274c48a824790b5a17ac6d766a
+      internalID: 730203624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_79
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 469
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a726c0c379187814499ac491aff700f0
+      internalID: -769997173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1468d99aa045f0549aa322ffb76187cc
+      internalID: -1716268047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_81
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2161af5e0cf32244d9f8c5ef84736de0
+      internalID: -1804198021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_82
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842342daa818e6440baa55f43fe59ed1
+      internalID: 608559985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_83
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666d9058fb9544242b237a7a7c8c5e92
+      internalID: -994391068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_84
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13346f407f45ce546928a6e0bf30de61
+      internalID: -1291365889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_85
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5539103e8a042914d9b33fbdb496ffc9
+      internalID: -2035442285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_86
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4285e517e7cc6d848a1c402f72807f45
+      internalID: 1647286949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_87
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08e89a61590ec042a66291001d82a4d
+      internalID: 771662946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_88
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9e5e232546d08488aa609bf8f25a05
+      internalID: -1967266810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_89
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 269
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3081d09d1cc5aa846a7f5c432b477807
+      internalID: -849988774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8a30dc4289d6a49b67a6b6abb7d6f6
+      internalID: 1780501654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_91
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34642545412347449ba02503176fafe
+      internalID: -1248351247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_92
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e300ef99bb8c64b9dea8ab592e1b58
+      internalID: -1061111915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_93
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550e6c3097ce667448ab8c60a7fa877c
+      internalID: 1627899110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_94
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb92fdbbd693f945a62c636a30013fc
+      internalID: -1258937561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_95
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880a13e617291d645bba3a8a87e304a3
+      internalID: 933338184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_96
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a5a7a2a8bb284f8fd955b90c93f6d
+      internalID: 1115747726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_97
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3260125cc6801b429881619052ff0ba
+      internalID: -1971469856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_98
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd13de374b07b9489ce3bcd61710d70
+      internalID: -1801549727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flores_99
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 69
+        width: 200
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768ce30a2ea8c541a8462cf99692b31
+      internalID: -368268338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flores_74: -618826131
+      Flores_57: -220026595
+      Flores_8: 50715978
+      Flores_97: -1971469856
+      Flores_88: -1967266810
+      Flores_42: 122121217
+      Flores_69: -136392943
+      Flores_9: 1111881504
+      Flores_33: -1138217291
+      Flores_87: 771662946
+      Flores_86: 1647286949
+      Flores_41: -305413248
+      Flores_53: 1685132838
+      Flores_5: -404958204
+      Flores_36: -952109861
+      Flores_7: 1896825180
+      Flores_38: -1894688212
+      Flores_11: -2126041871
+      Flores_46: -311780259
+      Flores_49: 1338706315
+      Flores_61: 35428678
+      Flores_98: -1801549727
+      Flores_18: -1325763823
+      Flores_24: -359946431
+      Flores_30: -997378345
+      Flores_29: 1732298984
+      Flores_40: 1981631095
+      Flores_91: -1248351247
+      Flores_94: -1258937561
+      Flores_63: 1894341430
+      Flores_81: -1804198021
+      Flores_95: 933338184
+      Flores_12: 407642154
+      Flores_56: -1503434867
+      Flores_44: -454118076
+      Flores_60: -2116076227
+      Flores_89: -849988774
+      Flores_16: -1756068592
+      Flores_77: -871634080
+      Flores_39: 230175506
+      Flores_22: -953777724
+      Flores_75: 1373044091
+      Flores_10: 1303345190
+      Flores_26: -467902161
+      Flores_47: 833584806
+      Flores_71: 30451985
+      Flores_20: -2052408360
+      Flores_65: -2126425924
+      Flores_6: -186583297
+      Flores_35: 1327129825
+      Flores_78: 730203624
+      Flores_59: -564973580
+      Flores_62: -2082603490
+      Flores_32: -1458780808
+      Flores_17: 986127256
+      Flores_0: 688736188
+      Flores_52: -1423604289
+      Flores_48: 1938795198
+      Flores_27: -217423596
+      Flores_43: 1656891368
+      Flores_76: -1357317465
+      Flores_96: 1115747726
+      Flores_80: -1716268047
+      Flores_82: 608559985
+      Flores_93: 1627899110
+      Flores_13: -604176430
+      Flores_15: -2052392637
+      Flores_68: -1846753219
+      Flores_50: 1136828408
+      Flores_1: -1314852763
+      Flores_34: -570727739
+      Flores_70: -714621186
+      Flores_55: 351794019
+      Flores_28: 1893164912
+      Flores_23: 946870904
+      Flores_19: 1094066825
+      Flores_14: 2104935793
+      Flores_37: 292633208
+      Flores_25: -1502726921
+      Flores_58: -2003127741
+      Flores_99: -368268338
+      Flores_45: -1023836108
+      Flores_85: -2035442285
+      Flores_21: -422886416
+      Flores_2: -764250809
+      Flores_67: 1424778587
+      Flores_31: 1367782641
+      Flores_4: -578008305
+      Flores_64: 1497682065
+      Flores_72: 1555101523
+      Flores_83: -994391068
+      Flores_79: -769997173
+      Flores_51: -813488518
+      Flores_92: -1061111915
+      Flores_73: -1802815436
+      Flores_54: 607541925
+      Flores_84: -1291365889
+      Flores_90: 1780501654
+      Flores_3: -1276501986
+      Flores_66: -949602391
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
